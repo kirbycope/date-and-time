@@ -1,8 +1,8 @@
 {
   "dirs": [
-    "res://test/unit/"
+    "res://addons/date_and_time/tests"
   ],
-  "include_subdirs": true,
+  "include_subdirs": false,
   "prefix": "test_",
   "suffix": ".gd"
 }
