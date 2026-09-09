@@ -84,7 +84,10 @@ jobs:
 
           rm -rf dist
           mkdir -p dist
-          cp -R addons/date_and_time dist/date_and_time
+          mkdir -p "dist/date_and_time"
+          # The addon is the repository root; everything but its own scaffolding goes in the zip.
+          rsync -a --exclude '/.git' --exclude '/.github' --exclude '/demo' \
+                --exclude '/.gitignore' --exclude '/.gitattributes' ./ "dist/date_and_time/"
 
           (
             cd dist
