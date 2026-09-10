@@ -31,7 +31,7 @@ The demo runs in a browser at <https://timothycope.com/date-and-time/>. A GitHub
 push to `main` and hands it straight to Pages, so the export itself is never committed: this repository is a
 submodule of the projects that use the addon, and a web export is tens of megabytes that git cannot compress.
 
-`demo/` is the project that export is built from, and the same project the tests and the release zip are built around. It expects the addon at `res://addons/date_and_time/`, which is
+`demo/` is the project that export is built from, and the same project the tests are built around. It expects the addon at `res://addons/date_and_time/`, which is
 where a consuming project puts it, so nothing in the addon needs a second set of paths. `demo/addons/` is
 ignored by git; fill it before running the demo locally:
 
