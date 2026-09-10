@@ -1,3 +1,5 @@
+![Preview](addons/date_and_time/assets/date-and-time.png)
+
 # Date and Time for Godot 4.8+
 
 An in-game clock and calendar with a HUD display, and a day cycle other addons can follow.
