@@ -110,12 +110,7 @@ func toggle_clock() -> void:
 
 ---
 
-## Assets
-
-- `assets/fonts/Rodin-Italic.ttf` — Fontworks Rodin. License not recorded — fill in.
-- `assets/icons/date_and_time_icon.svg`, `assets/icons/down_arrow.svg` — Source not recorded — fill in.
-
----
+Third-party assets are credited in [CREDITS.md](CREDITS.md).
 
 ## Testing
 
